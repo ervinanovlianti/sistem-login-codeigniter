@@ -1,0 +1,9 @@
+Dokumentasi Project Sistem Login by WPU Tutorial
+
+1. Download file codeigniter
+2. Download Template (rekomendasi sb admin2)
+3. Buat Folder dengan nama sistem-login di Xampp, jika menggunakan xampp lalu buat folder di htdocs
+4. Pindahkan file codeigniter ke dalam folder sistem-login yang telah dibuat sebelumnya.
+5. Buat folder assets untuk menyimpan file gambar, dll
+6. Buat folder vendor untuk menyimpan asset template
+7. Pindahkan file tempalate (sb admin2) ke dalam vendor
