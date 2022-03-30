@@ -46,7 +46,7 @@
 
                             <td class="text-center">
                                 <a class="badge badge-warning" href="">edit</a>
-                                <a class="badge badge-danger" href="<?= base_url('menu/delete_submenu/' . $sm['id']); ?>">delete</a>
+                                <a class="badge badge-danger" href="<?= base_url('menu/delete_submenu/' . $sm['id']); ?>" nclick="return confirm('Are you want to delet this submenu?')">delete</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
