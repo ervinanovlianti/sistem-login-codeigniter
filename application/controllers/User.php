@@ -66,7 +66,7 @@ class User extends CI_Controller
             $this->db->update('user');
             $this->session->set_flashdata('msg', '<div class="alert alert-success" role="alert">
             Your Profile Has been updated</div>');
-            redirect('user');
+            redirect('user/edit');
         }
     }
 
